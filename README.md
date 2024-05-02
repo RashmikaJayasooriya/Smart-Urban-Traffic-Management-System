@@ -15,7 +15,7 @@ Smart Urban Traffic Management System (SUTMS) is a comprehensive solution that i
 To install SUTMS, clone the repository and navigate to the project directory:
 1. Clone the repository to your local machine.
 2. Open the project.
-3. Place the database file traffic_data.db in this location to view the metrices in the jsp --> C:\payara6\glassfish\domains\domain1\config 
+3. Place the database file traffic_data.db [https://drive.google.com/file/d/1hOeimuWhOa2dpnEd3ASeOwC-9w7-n_hz/view?usp=drive_link] in this location to view the metrices in the jsp --> C:\payara6\glassfish\domains\domain1\config
 4. Build the project and deploay EAR artifact in a application server ex:- payara/glassfish.
 5. Serach for this url-->http://localhost:8080/web/traffic-metrics
 
