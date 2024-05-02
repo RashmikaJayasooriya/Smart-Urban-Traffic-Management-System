@@ -213,7 +213,7 @@
 <canvas id="lineChart" width="800" height="400"></canvas>
 
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-chart-box-and-violin-plot/4.0.0/Chart.BoxPlot.min.js" integrity="sha512-z2lEnxnLHbu/Vp4PxvIyCCy/QX1mmq2ocpgqTf50xeSDn35VTra3gUi7Qs53qSLj99aJ9SMtqP08UFt+lJmHxA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
     <%
@@ -243,6 +243,7 @@
     var ttiSDMapValues = ${standardDevTtiMap.values()};
 
     var traffiFlowValues = ${trafficDensityMap.values()};
+
     const labels = ttiMapKeys;
     console.log(labels);
     const data = {

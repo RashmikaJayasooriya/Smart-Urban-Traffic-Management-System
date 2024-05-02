@@ -23,6 +23,8 @@ public class TrafficMetrics extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        System.out.println(analyticalServer.identifyTrafficPatterns());
+
         if (analyticalServer.identifyTrafficPatterns().isEmpty()) {
             resp.getWriter().write("No Data Available");
         } else {
