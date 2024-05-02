@@ -14,8 +14,10 @@ Smart Urban Traffic Management System (SUTMS) is a comprehensive solution that i
 ## Installation
 To install SUTMS, clone the repository and navigate to the project directory:
 1. Clone the repository to your local machine.
-2. Open the project in Android Studio.
-3. Build the project and run it on an Android emulator or device.
+2. Open the project.
+3. Place the database file traffic_data.db in this location to view the metrices in the jsp --> C:\payara6\glassfish\domains\domain1\config 
+4. Build the project and deploay EAR artifact in a application server ex:- payara/glassfish.
+5. Serach for this url-->http://localhost:8080/web/traffic-metrics
 
 ## Technologies Used
 - **Java SE**: For simulating IoT devices.
@@ -44,5 +46,8 @@ Focuses on capturing realistic IoT device data, managing large volumes of data, 
 ## Contact
 For any inquiries or contributions, please contact Rashmika Jayasooriya at uvindurashmika20010405@outlook.com or call 0766351645 or visit https://rashmikajayasooriya.great-site.net for more information.
 
+## Smart Urban Traffic Management System Traffic Metrics Presentation In Web Images
+
+![Screenshot_2-5-2024_12250_localhost](https://github.com/RashmikaJayasooriya/Smart-Urban-Traffic-Management-System/assets/129141186/bba6f386-a6c6-42be-8101-152ff1055378)
 
 # Thank you for visiting the Smart Urban Traffic Management System repository!
